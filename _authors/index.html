@@ -1,0 +1,14 @@
+---
+layout: default
+permalink: /authors/
+---
+
+<div class="text-center">
+{% for author in site.authors %}
+
+  <h3>
+    <a href="{{ author.url }}">{{ author.name }}</a>
+  </h3>
+
+{% endfor %}
+</div>
