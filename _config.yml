@@ -1,1 +1,9 @@
 name: Your New Jekyll Site!
+
+collections:
+  posts:
+    output: true
+    permalink: /posts/:path/
+  authors:
+    output: true
+    permalink: /authors/:path/
