@@ -3,7 +3,9 @@ title: Jekyll Demo
 collections:
   posts:
     output: true
+    title: Blog Posts
     permalink: /posts/:path/
   authors:
     output: true
+    description: Directory of contributors to the site
     permalink: /authors/:path/
