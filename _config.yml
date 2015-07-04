@@ -4,8 +4,10 @@ collections:
   posts:
     output: true
     title: Blog Posts
+    description: Various posts about the progression of GoStatic
     permalink: /posts/:path/
   authors:
     output: true
+    title: Authors
     description: Directory of contributors to the site
     permalink: /authors/:path/
