@@ -1,0 +1,1 @@
+Wouldn't it be mental if we could create new posts on mobile, too..
