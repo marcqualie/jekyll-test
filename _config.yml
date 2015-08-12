@@ -15,6 +15,5 @@ collections:
 gostatic:
   build:
     command:
-    - echo "Using Custom Command System\!"
-    - jekyll build -v
+    - jekyll -v
     - jekyll build --trace --destination $SITE_DIR --config=_config.production.yml
