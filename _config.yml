@@ -11,3 +11,10 @@ collections:
     title: Authors
     description: Directory of contributors to the site
     permalink: /authors/:path/
+
+gostatic:
+  build:
+    command:
+    - echo "Using Custom Command System\!"
+    - jekyll build -v
+    - jekyll build --trace --destination $SITE_DIR --config=_config.production.yml
