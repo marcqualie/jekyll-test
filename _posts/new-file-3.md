@@ -1,5 +1,5 @@
 ---
-title: New File 3
-published: false
+title: New File Three
+published: true
 ---
 This is the third post
