@@ -1,4 +1,5 @@
 ---
+title: New Test Post
 published: false
 ---
 
