@@ -1,4 +1,4 @@
 ---
 published: false
 ---
-some content
+some **content**
