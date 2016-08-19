@@ -14,6 +14,8 @@ collections:
 
 gostatic:
   build:
-    command:
-    - jekyll -v
-    - jekyll build --trace --destination $SITE_DIR --config=_config.production.yml
+    dependencies:
+      pre:
+      - apt-get install -y libffi-dev
+      - jekyll -v
+      - gem install jekyll
