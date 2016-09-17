@@ -17,5 +17,6 @@ gostatic:
     dependencies:
       pre:
       - apt-get install -y libffi-dev
-      - jekyll -v
+      - jekyll -v || true
       - gem install jekyll
+      - jekyll -v
